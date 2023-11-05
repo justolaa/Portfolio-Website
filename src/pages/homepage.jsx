@@ -92,8 +92,8 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="https://media.licdn.com/dms/image/C4D03AQGBFlourx_EXQ/profile-displayphoto-shrink_800_800/0/1638627913858?e=1696464000&v=beta&t=MxwT31w0obGqIzoxGVwaq696un8jku18aAeAl1Bkt-8"
-											alt="about"
+											src={require('../Image/Profile.jpg')}
+											alt="Profile"
 											className="homepage-image"
 										/>
 									</div>

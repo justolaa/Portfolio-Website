@@ -15,8 +15,8 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="https://media.licdn.com/dms/image/D4E0BAQGhu6yKgqn-Tg/company-logo_200_200/0/1663665845885?e=1698883200&v=beta&t=lM4JBfJ4B9YisWOuUHp019NGLrUny--4f1TPfFVgy40"
-								alt="Image"
+							    src={require('../image/Google.png')}
+								alt="Google"
 								className="work-image"
 							/>
 							<div className="work-title">Google Digital Skills for Africa</div>
@@ -28,7 +28,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="https://media.licdn.com/dms/image/C4D0BAQGexnfBxeEG-g/company-logo_200_200/0/1608039227697?e=1698883200&v=beta&t=Ua5sEVseORmOviFdQkVqlzS1lMhNYJI75tcYbQqevEs"
+								src={require('../image/coursera.png')}
 								alt="twitter"
 								className="work-image"
 							/>

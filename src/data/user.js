@@ -52,6 +52,15 @@ const INFO = {
 			link: "https://justolaa.github.io/E-commerce-Project",
 		},
 
+			{
+			title: "Virid Food",
+			description:
+				"Aesthetically Pleasing E-commerce Website For A Catering Business",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://virid-food-concept.web.app/",
+		},
+
 		{
 			title: "Stripe Landing Page",
 			description:
@@ -67,7 +76,7 @@ const INFO = {
 				"Similar to the ReadMe page employed in github. A markdown cheat sheet can be used to style to your preference  ",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://justolaa.github.io/Markdown-Project",
+			link: "https://vercel.com/justolaa/markdown-project",
 		},
 
 		{
@@ -76,7 +85,7 @@ const INFO = {
 				"Manipulating data from an API to display reviews",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://justolaa.github.io/Reviews-Project",
+			link: "https://vercel.com/justolaa/reviews-project",
 		},
 	],
 };
