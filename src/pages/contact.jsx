@@ -5,12 +5,20 @@ import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 import INFO from "../data/user";
 import "./styles/contact.css";
+import ReactGA from 'react-ga4'; 
 
 const Contact = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 
+const handleButtonClick = () => {
+  ReactGA.event({
+    category: 'Contact', // Category of the event
+    action: 'Contact-Ola', // Action to describe the event
+    label: 'Contact' // Optional label for more details
+  });
+};
 	return (
 		<React.Fragment>
 
@@ -34,12 +42,12 @@ const Contact = () => {
 							suggestions. If you have a specific question,
 							comment or collaboration offer, please feel free to email me directly at
 							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
+							<a onClick={handleButtonClick} href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
 							. Additionally, if you prefer to connect on
 							social media, you can find me on{" "}
-							<a
+							<a onClick={handleButtonClick}
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"

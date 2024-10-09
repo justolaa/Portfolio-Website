@@ -55,19 +55,19 @@ const INFO = {
 			{
 			title: "Virid Food",
 			description:
-				"Aesthetically Pleasing E-commerce Website For A Catering Business",
+				"A dynamic e-commerce platform with seamless authentication, full CRUD capabilities, built-in analytics, and optimized for search engines—crafted for performance and user experience.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://virid-food-concept.web.app/",
 		},
 
 		{
-			title: "Stripe Landing Page",
+			title: "Glosfabrics",
 			description:
-				"Landing Page built with React.js ",
+				"Aesthetically Pleasing E-commerce Website For A Clothing Business",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://justolaa.github.io/Stripe-Project",
+			link: "https://glosfabrics.web.app/",
 		},
 
 		{

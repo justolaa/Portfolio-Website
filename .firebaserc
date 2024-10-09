@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "portfolio-website-eff06"
-  }
+    "default": "portfolio-website-eff06",
+    "idolamide": "idowu-olamide"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

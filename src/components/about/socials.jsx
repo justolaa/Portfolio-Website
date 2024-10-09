@@ -11,12 +11,20 @@ import {
 import INFO from "../../data/user";
 
 import "./styles/socials.css";
+import ReactGA from 'react-ga4';  
 
 const Socials = () => {
+	const handleButtonClick = () => {
+  ReactGA.event({
+    category: 'Contact', // Category of the event
+    action: 'Contact-Ola', // Action to describe the event
+    label: 'Contact' // Optional label for more details
+  });
+};
 	return (
 		<div className="socials">
-			<div className="social">
-				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
+			<div onClick={handleButtonClick} className="social">
+				<a  href={INFO.socials.twitter} target="_blank" rel="noreferrer">
 					<div className="social-icon">
 						<FontAwesomeIcon
 							icon={faTwitter}
@@ -27,7 +35,7 @@ const Socials = () => {
 				</a>
 			</div>
 
-			<div className="social">
+			<div  onClick={handleButtonClick} className="social">
 				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
 					<div className="social-icon">
 						<FontAwesomeIcon
@@ -39,7 +47,7 @@ const Socials = () => {
 				</a>
 			</div>
 
-			<div className="social">
+			<div onClick={handleButtonClick} className="social">
 				<a
 					href={INFO.socials.linkedin}
 					target="_blank"
@@ -55,7 +63,7 @@ const Socials = () => {
 				</a>
 			</div>
 
-			<div className="social">
+			<div onClick={handleButtonClick} className="social">
 				<a
 					href={INFO.socials.instagram}
 					target="_blank"
@@ -73,7 +81,7 @@ const Socials = () => {
 
 			<div className="email">
 				<div className="email-wrapper">
-					<a
+					<a onClick={handleButtonClick}
 						href={`mailto:${INFO.main.email}`}
 						target="_blank"
 						rel="noreferrer"
