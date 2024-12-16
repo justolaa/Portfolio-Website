@@ -35,7 +35,24 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1: Calculator",
+			title: "Interactive 3D Book Slider",
+			description:
+				"An immersive 3D book showcase built with React, Vite, and Three.js. Designed to bring stories to life with smooth animations and intuitive interactions. This project highlights my skills in combining 3D visuals with responsive web design.",
+			logo: "./threejs-logo.png",
+			linkText: "View Project",
+			link: "https://olamide-2024.vercel.app/",
+		},
+		{
+			title: "Glosfabrics",
+			description:
+				"A modern e-commerce website for Glosfabrics, featuring secure authentication, robust CRUD operations, real-time analytics, and an AI-powered chatbot for customer support. Built with Vite + React, Firebase, it ensures seamless user experiences and backend security.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://glosfabrics.web.app/",
+		},
+
+			{
+			title: "Calculator",
 			description:
 				"A user friendly calculator that also has three aesthetically pleasing themes.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
@@ -43,31 +60,22 @@ const INFO = {
 			link: "https://justolaa.github.io/Day20/Day20.html",
 		},
 
-		{
-			title: "E-commerce Website",
-			description:
-				"Clone of an E-commerce website built with React.js",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://justolaa.github.io/E-commerce-Project",
-		},
-
 			{
 			title: "Virid Food",
 			description:
 				"A dynamic e-commerce platform with seamless authentication, full CRUD capabilities, built-in analytics, and optimized for search engines—crafted for performance and user experience.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo: "./react.png",
 			linkText: "View Project",
 			link: "https://virid-food-concept.web.app/",
 		},
 
 		{
-			title: "Glosfabrics",
+			title: "E-commerce Website",
 			description:
-				"Aesthetically Pleasing E-commerce Website For A Clothing Business",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"Clone of an E-commerce website built with React.js",
+				logo: "./react.png",
 			linkText: "View Project",
-			link: "https://glosfabrics.web.app/",
+			link: "https://justolaa.github.io/E-commerce-Project",
 		},
 
 		{
